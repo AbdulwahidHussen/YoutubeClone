@@ -8,7 +8,7 @@ import SearchFeed from "./Components/SearchFeed";
 import './index.css'
 const App = () => {
   return (
-  
+
 <BrowserRouter>
     <Box sx={{backgroundColor: 'rgb(1, 5, 13)',width:'100%',height:'100%'}}>
         <Navbar />
@@ -19,9 +19,10 @@ const App = () => {
             <Route path="/search/:searchTerm" element={<SearchFeed />} />  
         </Routes>
     </Box>
-    
+    <div style={{backgroundColor:'rgb(1, 5, 13)',color:'white',display:'flex',justifyContent:'center',alignContent:'center',alignItems:'center'}}><p>Developed by abdulwahid Hussen</p></div>
 </BrowserRouter>
    )
 }
+
 
 export default App;
